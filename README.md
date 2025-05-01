@@ -1,6 +1,6 @@
 # Reducing-Electricity-Cost-of-Smart-Appliances
 ### Main Script to Run
-**`final_demo.m`** is the **main script**.  
+**`project.m`** is the **main script**.  
 Run it **after** ensuring the files `printer.m` and `reschedule.m` are saved in the **same folder**.
 
 ---
@@ -14,7 +14,7 @@ This project optimizes the electricity cost and load balancing for smart applian
 
 | File Name         | Purpose |
 |-------------------|---------|
-| `final_demo.m`    | Main driver script. Handles input, optimization, scheduling, and user interaction. |
+| `project.m`    | Main driver script. Handles input, optimization, scheduling, and user interaction. |
 | `printer.m`       | Visualizes and prints the optimized schedule, energy, cost, and mismatch. |
 | `reschedule.m`    | Dynamically modifies schedule based on user input (on/off of an appliance). |
 
@@ -23,10 +23,10 @@ This project optimizes the electricity cost and load balancing for smart applian
 ### How to Use
 
 1. **Choose the desired dataset (LS1, LS2, LS3, or LS4)**  
-   - Inside `final_demo.m`, uncomment the block for the dataset you want to run.  
+   - Inside `project.m`, uncomment the block for the dataset you want to run.  
    - **Comment out the other datasets**.
 
-2. **Run `final_demo.m`** in MATLAB:
+2. **Run `project.m`** in MATLAB:
    - It will display the optimized schedule and ask for user input for dynamic rescheduling.
 
 3. **Dynamic Rescheduling**  
