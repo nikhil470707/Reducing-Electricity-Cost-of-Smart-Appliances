@@ -12,11 +12,11 @@ This project optimizes the electricity cost and load balancing for smart applian
 
 ### Files Overview
 
- File Name          Purpose 
-----------------------------
- `final_demo.m`  -   Main driver script. Handles input, optimization and load scheduling. 
- `printer.m`     -   Visualizes and prints the optimized schedule, energy, cost, and mismatch. 
- `reschedule.m`  -   Dynamically modifies schedule based on user input (on/off of an appliance). 
+| File Name         | Purpose |
+|-------------------|---------|
+| `final_demo.m`    | Main driver script. Handles input, optimization, scheduling, and user interaction. |
+| `printer.m`       | Visualizes and prints the optimized schedule, energy, cost, and mismatch. |
+| `reschedule.m`    | Dynamically modifies schedule based on user input (on/off of an appliance). |
 
 ---
 
